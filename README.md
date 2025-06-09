@@ -18,18 +18,6 @@ Automates the update of a product catalog with the following steps:
 
 📂 See: [`catalog-update/`](./catalog-update/)
 
-### 📊 Report Generation Tool
-- Parses input data
-- Formats it into a PDF report
-- Sends the report via email
-
-📂 See: [`reporting-tool/`](./reporting-tool/)
-
-### 🔍 System Monitor
-- Checks CPU usage, disk space, memory, and network
-- Sends alert emails if thresholds are exceeded
-
-📂 See: [`system-monitor/`](./system-monitor/)
 
 > ⚙️ More projects coming soon...
 
