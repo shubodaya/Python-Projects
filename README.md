@@ -1,61 +1,74 @@
 # 🐍 Python Automation Projects
 
-This repository contains a collection of Python-based automation projects developed as part of the **Google IT Automation with Python Professional Certificate**.
+Welcome to the **Python Automation Projects** repository — a collection of real-world automation scripts and tools built using Python.
 
-Each project demonstrates the use of Python in real-world IT and DevOps scenarios — from automating system tasks to interacting with web services, generating reports, and monitoring system health.
-
----
-
-## 📁 Projects Overview
-
-### 🔄 Automate Update to Product Catalog
-Automates image conversion, uploads data to a server, generates PDF reports, and emails system alerts.
-
-- **Image Processing:** Resize and convert `.tiff` to `.jpeg`
-- **Data Upload:** POST fruit data to a web server
-- **PDF Report:** Summary of uploaded data
-- **Email Notification:** Sends report via email
-- **Health Monitoring:** Checks CPU, memory, disk, hostname
-
-📄 Detailed documentation and source code are in the [`catalog-update`](./catalog-update/) directory.
+These projects are designed to automate a range of tasks including data processing, report generation, file management, server monitoring, and web interactions. They demonstrate practical applications of Python in IT operations, DevOps, and general productivity.
 
 ---
 
-## 🛠️ Tools & Libraries
+## 📁 Project Highlights
+
+### 🔄 Catalog Update Automation
+Automates the update of a product catalog with the following steps:
+- Image conversion and resizing
+- Uploading content (images and descriptions) to a web server
+- PDF report generation
+- Email delivery of reports
+- System health checks and alerting
+
+📂 See: [`catalog-update/`](./catalog-update/)
+
+### 📊 Report Generation Tool
+- Parses input data
+- Formats it into a PDF report
+- Sends the report via email
+
+📂 See: [`reporting-tool/`](./reporting-tool/)
+
+### 🔍 System Monitor
+- Checks CPU usage, disk space, memory, and network
+- Sends alert emails if thresholds are exceeded
+
+📂 See: [`system-monitor/`](./system-monitor/)
+
+> ⚙️ More projects coming soon...
+
+---
+
+## 🛠️ Built With
 
 - Python 3
-- `Pillow` – Image processing
-- `requests` – HTTP requests
-- `reportlab` – PDF generation
-- `psutil` – System monitoring
-- `smtplib` – Sending emails
-- `email` – MIME email composition
-- Linux shell scripting (optional)
+- Standard Library (`os`, `email`, `smtplib`, etc.)
+- Third-party libraries:
+  - `Pillow` – Image processing
+  - `requests` – HTTP requests
+  - `reportlab` – PDF generation
+  - `psutil` – System monitoring
 
 ---
 
 ## 🚀 Getting Started
 
-### Clone the repo:
+### Clone the repository:
 ```bash
 git clone https://github.com/your-username/python-automation-projects.git
 cd python-automation-projects
 ```
 
-### Set up a virtual environment:
+### (Optional) Set up a virtual environment:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-> Make sure to adjust file paths and IP addresses as per your system or server.
+> Some projects may require external configuration such as file paths or server IP addresses. See individual project folders for instructions.
 
 ---
 
-## 📬 Contributions
+## 🤝 Contributing
 
-Contributions are welcome! Feel free to fork this repo and submit a pull request with enhancements or additional automation scripts.
+Contributions are welcome! Feel free to fork the repository and submit a pull request with improvements, bug fixes, or new automation scripts.
 
 ---
 
@@ -65,7 +78,7 @@ This repository is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 📧 Contact
+## 📬 Contact
 
-For any inquiries or suggestions, contact:  
+Have suggestions or questions? Reach out at:  
 📮 **hnshubodaya@gmail.com**
