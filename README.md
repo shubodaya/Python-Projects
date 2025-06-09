@@ -16,7 +16,7 @@ Automates the update of a product catalog with the following steps:
 - Email delivery of reports
 - System health checks and alerting
 
-📂 See: [`catalog-update/`](./catalog-update/)
+📂 See: [`catalog-update/`](./Automate-Updates-to-Catalog.md)
 
 
 > ⚙️ More projects coming soon...
