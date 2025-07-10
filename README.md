@@ -1,6 +1,6 @@
 # 🐍 Python Automation Projects
 
-Welcome to the **Python Automation Projects** repository — a collection of real-world automation scripts and tools built using Python.
+Welcome to the **Python Automation Projects** repository a collection of real-world automation scripts and tools built using Python.
 
 These projects are designed to automate a range of tasks including data processing, report generation, file management, server monitoring, and web interactions. They demonstrate practical applications of Python in IT operations, DevOps, and general productivity.
 
