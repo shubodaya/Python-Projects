@@ -1,0 +1,17 @@
+Sep  8 12:15:23 myserver sshd[12345]: Failed password for invalid user admin from 192.168.1.50 port 54022 ssh2
+Sep  8 12:15:25 myserver sshd[12346]: Failed password for root from 203.0.113.45 port 54023 ssh2
+Sep  8 12:16:11 myserver sshd[12347]: Invalid user test from 203.0.113.99 port 54024
+Sep  8 12:16:15 myserver sshd[12348]: PAM authentication failure; rhost=198.51.100.33 user=unknown
+
+Sep  8 12:20:55 myserver myapp[2222]: CRITICAL error: service crashed unexpectedly
+Sep  8 12:21:02 myserver kernel: [12345.67] segmentation fault at 0000000000000000 ip 00007f5c1d2e sp 00007fff
+Sep  8 12:21:15 myserver python3[3333]: Traceback (most recent call last):
+Sep  8 12:21:15 myserver python3[3333]:   File "app.py", line 10, in <module>
+Sep  8 12:21:15 myserver python3[3333]:     main()
+Sep  8 12:21:15 myserver python3[3333]: RuntimeError: Something went wrong
+
+Sep  8 12:25:05 myserver firewall: DROP IN=eth0 OUT= MAC= SRC=203.0.113.77 DST=192.168.1.10 LEN=60
+Sep  8 12:25:07 myserver apache2[4444]: GET /index.php?id=1' OR '1'='1 HTTP/1.1" 200 1234 "-" "Mozilla"
+Sep  8 12:25:10 myserver nginx[5555]: GET /../../etc/passwd HTTP/1.1" 403 452 "-" "curl/7.68.0"
+Sep  8 12:25:13 myserver apache2[4445]: "GET /secret HTTP/1.1" 404 123 "-" "Mozilla" from 203.0.113.99
+
