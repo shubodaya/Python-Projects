@@ -19,6 +19,16 @@ Automates the update of a product catalog with the following steps:
 📂 See: [`catalog-update/`](./Automate-Update-to-Catalog/Readme.md)
 
 
+### 📊 Automated Log Analyzer & Alerting
+Monitors local or remote logs in real time to detect issues before they become critical:
+- Collects logs from local folders or remote servers (SSH/Paramiko)
+- Parses for failed logins, service crashes, suspicious activity
+- Saves results into SQLite/CSV
+- Sends alerts via Email/Slack when thresholds are crossed
+- Runs continuously on a schedule
+
+📂 See: [`log-analyzer/`](./Automated-Log-Analyzer/Readme.md)
+
 > ⚙️ More projects coming soon...
 
 ---
