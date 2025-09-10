@@ -27,7 +27,7 @@ Monitors local or remote logs in real time to detect issues before they become c
 - Sends alerts via Email/Slack when thresholds are crossed
 - Runs continuously on a schedule
 
-📂 See: [`log-analyzer/`](./Automated_Log_Analyzer/Readme.md)
+📂 See: [`log-analyzer/`](./Automated_log_analyzer/Readme.md)
 
 > ⚙️ More projects coming soon...
 
