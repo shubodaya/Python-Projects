@@ -83,7 +83,7 @@ Alerts (Email / Slack)
     },
 },
 ```
-👉 Gmail users: You must enable 2-Step Verification and generate an App Password (guide).
+👉 Gmail users: You must enable 2-Step Verification and generate an App Password.
 
 ### 5. Usage
 Run the analyzer
